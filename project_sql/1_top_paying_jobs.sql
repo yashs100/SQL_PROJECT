@@ -1,6 +1,5 @@
-/* 
- Question: What are the top-paying data analyst jobs in USA?
- */
+/* Question: What are the top-paying data analyst jobs in USA? */
+
 SELECT job_posted_date::DATE,
     cd.name AS company_name,
     job_title,
