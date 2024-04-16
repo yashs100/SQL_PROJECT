@@ -1,4 +1,5 @@
 /* Question: What skills are required for the top-paying data analyst jobs? */
+
 WITH top_paying_jobs AS (
     SELECT job_id,
         job_posted_date::DATE,
